@@ -28,11 +28,18 @@ public abstract class Contract {
 	}
 	
 	public void displayWeeklyWage() {
-		System.out.print("Weekly Pay: " + getWeeklyWage());
+		System.out.println("Weekly Pay: " + getWeeklyWage());
 	}
 	
 	public void displayYearlyWage() {
-		System.out.print("Yearly Pay: " + getYearlyWage());
+		System.out.println("Yearly Pay: " + getYearlyWage());
 	}
 	
+	public void displayHours() {
+		System.out.println("Hours: " + getHours());
+	}
+	
+	public void displayPayRate() {
+		System.out.println("Payrate: " + getPayRate());
+	}
 }
