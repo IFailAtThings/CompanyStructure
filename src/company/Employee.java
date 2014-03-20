@@ -28,11 +28,11 @@ public class Employee extends CompanyPerson {
 	}
 	
 	public void display() {
-		super.display();
+		//super.display();
 		System.out.println("Department: " + department);
-		contract.displayHours();
-		contract.displayPayRate();
-		contract.displayWeeklyWage();
-		contract.displayYearlyWage();
+		//contract.displayHours();
+		//contract.displayPayRate();
+		//contract.displayWeeklyWage();
+		//contract.displayYearlyWage();
 	}
 }

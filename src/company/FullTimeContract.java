@@ -5,7 +5,4 @@ public class FullTimeContract extends Contract{
 		this.payrate = payrate;
 		hours = 45;
 	}
-	
-
-	
 }
